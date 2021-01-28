@@ -232,10 +232,9 @@ footer p {
     }
 
     #icon {
-        width: 45px;
-        margin: 0;
-        padding-left: 30px;
-        padding-right: 30px;
+        width: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
         align-items: center;
     }
 
@@ -257,10 +256,11 @@ footer p {
         background-color: rgb(214, 214, 214);
     }
     main .intro {
-        padding: 32px 16px;
+        padding-top: 0;
+        padding-left: 16px;
+        padding-bottom: 32px;
     }
     .intro h2 {
-        font-size: 44px;
         text-align: left;
     }
     .grid {
@@ -278,18 +278,8 @@ footer p {
     .gridB #block {
         padding-left: 16px;
     }
-    #regular {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    #small, #readmore {
-        font-size: 22px;
-        font-weight: 200;
-    }
     main h2 {
         padding-top: 32px;
-        font-size: 44px;
-        line-height: 44px;
     }
     .learn ul {
         padding: 0;
