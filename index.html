@@ -11,9 +11,9 @@
 <body>
     <header class="flex">
         <a href="" id="nodeco">
-            <div class="flex logo">
+            <div class="flex logo" id="desktop">
                 <img src="./resource/images/ic-logo.svg" alt="Academy Logo">
-                <h1 id="desktop"><strong>COLMAR</strong>ACADEMY</h1>
+                <h1><strong>COLMAR</strong>ACADEMY</h1>
             </div>    
         </a>
         <nav class="bar flex noliststyle" id="desktop">
@@ -22,14 +22,15 @@
             <li><a href="" id="nodeco">Companies</a></li>
             <li><a href="" id="nodeco">Sign in</a></li>
         </nav>
-        <nav class="bar flex noliststyle" id="mobile">
-            <img src="./resource/images/ic-on-campus.svg" alt="On campus" id="oncampus">
-            <img src="./resource/images/ic-online.svg" alt="Online" id="online">
-            <img src="./resource/images/ic-login.svg" alt="Login" id="login">
-        </nav>
+        <div class="noliststyle moflex" id="mobile">
+            <img src="./resource/images/ic-logo.svg" alt="Academy Logo" id="icon">
+            <img src="./resource/images/ic-on-campus.svg" alt="On campus" id="icon">
+            <img src="./resource/images/ic-online.svg" alt="Online" id="icon">
+            <img src="./resource/images/ic-login.svg" alt="Login" id="icon">
+        </div>
     </header>
     <main>
-        <div class="section gray flex">
+        <div class="first section gray flex">
             <img src="./resource/images/banner.jpg" alt="Website Banner" id="width60">
             <div class="intro">
                 <h2>Learn something <br>new every day</h2>
@@ -53,7 +54,7 @@
                 </div>
             </div>
             <div class="gridB">
-                <div class="flex">
+                <div class="flex news">
                     <img src="./resource/images/information-orientation.jpg" alt="Orientation" id="desktop">
                     <img src="./resource/images/information-orientation-mobile.jpg" alt="Orientation" id="mobile">
                     <div id="block">
@@ -62,7 +63,7 @@
                         <a href="" id="readmore">Read more ></a>    
                     </div>
                 </div>
-                <div class="flex border">
+                <div class="flex border news">
                     <img src="./resource/images/information-campus.jpg" alt="Campus" id="desktop">
                     <img src="./resource/images/information-campus-mobile.jpg" alt="Campus" id="mobile">
                     <div id="block">
@@ -71,7 +72,7 @@
                         <a href="" id="readmore">Read more ></a>    
                     </div>
                 </div>
-                <div class="flex gray border">
+                <div class="flex gray border news">
                     <img src="./resource/images/information-guest-lecture.jpg" alt="Guest Lecturer" id="desktop">
                     <img src="./resource/images/information-guest-lecture-mobile.jpg" alt="Guest Lecturer" id="mobile">
                     <div id="block">
@@ -128,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div id="mobile">
+            <div class="third learn" id="mobile">
                 <ul class="noliststyle" id="regular">
                     <li>Software Engineering</li>
                     <li>Computer Art</li>
@@ -139,7 +140,7 @@
                 </ul>
             </div>
         </div>
-        <div class="section white">
+        <div class="fourth section white">
             <h2>Thesis exhibit</h2>
             <div class="grid">
                 <div class="video"> 
@@ -149,15 +150,15 @@
                         <p id="small">Our academy is proud to present the first exhibition</p>
                     </div>
                 </div> 
-                <div id="ingrid desktop"> <!--extra information-->
-                    <div class="flex gray">
+                <div id="ingrid"> <!--extra information-->
+                    <div class="flex gray" id="desktop">
                         <img src="./resource/images/thesis-fisma.jpg" alt="Fisma" id="width35">
                         <div id="block">
                             <p id="regular">Fisma: Design and Prototype</p>
                             <p id="small">Designer showcase of new prototype product</p>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="flex" id="desktop">
                             <img src="./resource/images/thesis-now-and-then.jpg" alt="Now and Then" id="width35">
                             <div id="block">
                                 <p id="regular">Now and then</p>
@@ -171,7 +172,7 @@
     </main>
     <footer class="flex" id="small">
         <p>&copy; 2016 Colmar Academy : All rights reserved</p>
-        <nav class="bar flex noliststyle">
+        <nav class="bar flex noliststyle" id="desktop">
             <li><a href="" id="nodeco">Terms</a></li>
             <li><a href="" id="nodeco">Privacy</a></li>
         </nav>
