@@ -4,11 +4,19 @@ body {
     
 }
 
-header {
+#mobile {
+    display: none;
+} 
+
+#nodeco {
+    text-decoration: none;
+    color: black;
+}
+
+header .flex {
     padding-left: 24px;
     padding-right: 24px;
     height: 64px;
-    background-size: cover;
     width: 100%;
 }
 
@@ -20,29 +28,26 @@ header .logo img {
 header h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-header ul li {
-    padding-left: 16px;
-    padding-right: 16px;
+header .bar {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bar li {
+    padding-left: 24px;
 }
 
 .noliststyle {
     list-style-type: none;
 }
 
-.right {
-    float: right;
-}
-
 .flex{
     display: flex;
 }
-
-#mobile {
-    display: none;
-} 
 
 main .section {
     padding-top: 32px;
@@ -129,7 +134,7 @@ main button {
     text-decoration: none;
 }
 
-#left72 h2 {
+#left72 h2, .section h2 {
     margin-top: 0;
     margin-bottom: 32px;
     text-align: center;
@@ -138,23 +143,67 @@ main button {
 #left72 {
     padding-left: 72px;
     padding-right: 72px;
+    min-height: fit-content;
 }
 
 .desktopgrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px);
     grid-gap: 32px;
 }
 
-.desktopgrid img {
-    max-width: 310px;
+#photogrid {
+    display: grid;
+    grid-template-rows: 48% 52%;
+    background-color: white;
 }
 
-.desktopgrid div {
-    border: 1px solid red;
+#photogrid #software {
+    background-image: url('/resource/images/course-software.jpg');
+    background-size: cover;
+}
+#photogrid #art {
+    background-image: url('/resource/images/course-computer-art.jpg');
+    background-size: cover;
+}
+#photogrid #design {
+    background-image: url('/resource/images/course-design.jpg');
+    background-size: cover;
+}
+#photogrid #data {
+    background-image: url('/resource/images/course-data.jpg');
+    background-size: cover;
+}
+#photogrid #business {
+    background-image: url('/resource/images/course-business.jpg');
+    background-size: cover;
+}
+#photogrid #marketing {
+    background-image: url('/resource/images/course-marketing.jpg');
+    background-size: cover;
 }
 
-.desktopgrid #coursedescription {
-    margin: 24px;
+#coursedescription {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0;
+    height: fit-content;
+}
+
+.video {
+    padding-right: 24px;
+}
+
+footer {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top: .8px solid gray;
+    height: 80px;
+    width: cover;
+    justify-content: space-between;
+}
+footer p {
+    margin-top: 0;
 }
