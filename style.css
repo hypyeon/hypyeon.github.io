@@ -162,26 +162,32 @@ main button {
 #photogrid #software {
     background-image: url('/resource/images/course-software.jpg');
     background-size: cover;
+    z-index: 5;
 }
 #photogrid #art {
     background-image: url('/resource/images/course-computer-art.jpg');
     background-size: cover;
+    z-index: 5;
 }
 #photogrid #design {
     background-image: url('/resource/images/course-design.jpg');
     background-size: cover;
+    z-index: 5;
 }
 #photogrid #data {
     background-image: url('/resource/images/course-data.jpg');
     background-size: cover;
+    z-index: 5;
 }
 #photogrid #business {
     background-image: url('/resource/images/course-business.jpg');
     background-size: cover;
+    z-index: 5;
 }
 #photogrid #marketing {
     background-image: url('/resource/images/course-marketing.jpg');
     background-size: cover;
+    z-index: 5;
 }
 
 #coursedescription {
